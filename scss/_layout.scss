@@ -1,0 +1,237 @@
+body {
+  max-width: 1920px;
+  background: #000;
+  color: white;
+  padding: 0 15px;
+}
+
+.bg-white {
+  padding: 0 15px;
+  max-width: 1920px;
+  background: white;
+  color: black;
+  border-radius: 120px;
+}
+
+.header {
+  max-width: 1324px;
+  margin: 0 auto;
+}
+
+.container,
+.row {
+  max-width: 1324px;
+  margin: 0 auto;
+
+}
+
+.flex-growth-1 {
+  flex: 1 1 auto;
+}
+
+.mr-12 {
+  margin-right: 12px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-23 {
+  margin-right: 23px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-160 {
+  margin-top: 160px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-100{
+  margin-bottom: 100px;
+}
+.mb-160 {
+  margin-bottom: 160px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.maw-132 {
+  max-width: 132px;
+}
+
+.maw-164 {
+  max-width: 164px;
+}
+
+// 設計稿提供的樣式
+
+.d01-r {
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.d02-r {
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.d03-r {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.h01-r {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.h02-r {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.h03-r {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.h04-r {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.h05-r {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.h06-r {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.b-r {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.s-r {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.t-r {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.s-b {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.d01-b {
+  font-size: 160px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.d02-b {
+  font-size: 120px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.d03-b {
+  font-size: 80px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.h01-b {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.h02-b {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.h03-b {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.h04-b {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.h05-b {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.h06-b {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.b-b {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.s-b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.t-b {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+}

@@ -14,8 +14,9 @@
   align-items: center;
 }
 
-.nav-item, .navbar-toggler{
-color:white;
+.nav-item,
+.navbar-toggler {
+  color: white;
 }
 
 .nav-link {
@@ -23,21 +24,24 @@ color:white;
   padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #919191;
 }
 
-@media(min-width:992px){
-.navbar-collapse{
-position:absolute;
-	right:0px;
-}
+@media (min-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    right: 0px;
+  }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding:0px;}
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px;
+  }
 }
 
 // h2透過+開始使用btn
@@ -70,26 +74,32 @@ position:absolute;
     height: 180px;
   }
 }
-.grassWrapper img, .grassWrapper .grass {
+.grassWrapper img,
+.grassWrapper .grass {
   transform: translateY(100%);
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
-.grassWrapper img:nth-child(3), .grassWrapper .grass:nth-child(3) {
+.grassWrapper img:nth-child(3),
+.grassWrapper .grass:nth-child(3) {
   animation-name: grow1;
 }
-.grassWrapper img:nth-child(2), .grassWrapper .grass:nth-child(2) {
+.grassWrapper img:nth-child(2),
+.grassWrapper .grass:nth-child(2) {
   animation-name: grow2;
 }
-.grassWrapper img:nth-child(1), .grassWrapper .grass:nth-child(1) {
+.grassWrapper img:nth-child(1),
+.grassWrapper .grass:nth-child(1) {
   animation-name: grow3;
 }
 
 @keyframes grow1 {
-  0%, 20% {
+  0%,
+  20% {
     transform: translateY(101%);
   }
-  70%, 85% {
+  70%,
+  85% {
     transform: translateY(0);
   }
   100% {
@@ -97,10 +107,12 @@ position:absolute;
   }
 }
 @keyframes grow2 {
-  0%, 25% {
+  0%,
+  25% {
     transform: translateY(101%);
   }
-  75%, 90% {
+  75%,
+  90% {
     transform: translateY(0);
   }
   100% {
@@ -108,10 +120,12 @@ position:absolute;
   }
 }
 @keyframes grow3 {
-  0%, 30% {
+  0%,
+  30% {
     transform: translateY(101%);
   }
-  80%, 95% {
+  80%,
+  95% {
     transform: translateY(0);
   }
   100% {
@@ -169,8 +183,6 @@ position:absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-
-
 
 // 我們的服務+三小格
 .service-card {
